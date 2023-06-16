@@ -1,11 +1,10 @@
 #include <stdio.h>
 
-
 /**
- * main  - entry point
- * Description: c language that prints with put function
+ * main  - Entry point
+ * Description: A c language that prints with put function
  *
- * return: 0 (success)
+ * return: Always 0 (success)
  */
 
 int main(void)

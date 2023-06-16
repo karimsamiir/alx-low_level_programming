@@ -6,13 +6,12 @@
  * Description: print a qoute using write function
  *      write(int fd.const void *buf.size-t count)
  *
- * Return: 1 (error)
-*/
+ * Return: 1 (error).
+*/0
 
 int main(void)
-{       
-	char qou[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+{	char qou[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	write(1,qou,59);
-	retutn (1);
+	write(1, qou, 59);
+	return (1);
 }

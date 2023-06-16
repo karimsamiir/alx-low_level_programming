@@ -7,7 +7,7 @@
  *
  * Description: print the value of n status
  *		geater than, is zero and is not less than 6.
- * Reaturn: 0 (Success)
+ * Reaturn: Always 0 (Success)
 */
 
 int main(void)

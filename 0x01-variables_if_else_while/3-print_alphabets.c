@@ -16,7 +16,7 @@ int main(void)
 	/*prints a - z*/
 	while (ch <= 'z')
 	{
-		puchar(ch);
+		putchar(ch);
 		ch++;
 	}
 

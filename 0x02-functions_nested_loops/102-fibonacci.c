@@ -10,7 +10,7 @@
  * Return: Always 0 (success)
 */
 
-int mian(void)
+int main(void)
 {
 	int count;
 	unsigned long fib1 = 0, fib2 = 1, sum;
@@ -29,5 +29,5 @@ int mian(void)
 			printf(", ");
 	}
 
-	return (0);
+	return 0;
 }

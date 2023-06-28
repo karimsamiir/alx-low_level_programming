@@ -28,5 +28,6 @@ int mian(void)
 		else
 			printf(", ");
 	}
+
 	return (0);
 }

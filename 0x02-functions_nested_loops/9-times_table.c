@@ -22,15 +22,9 @@ void times_table(void)
 			if (prod <= 9)
 				_putchar(' ');
 			else
-<<<<<<< HEAD
-				_putchar((prod / 10) + '48');
+				_putchar((prod / 10) + 48);
 		
-			_putchar((prod % 10) + '48');
-=======
-				_putchar((prod / 10) +'0');
-		
-			_putchar((prod % 10) + '0');
->>>>>>> 009d96aaedad5f6b2641012612bc6d68f4601332
+			_putchar((prod % 10) + 48);
 		}
 		_putchar('\n');
 	}

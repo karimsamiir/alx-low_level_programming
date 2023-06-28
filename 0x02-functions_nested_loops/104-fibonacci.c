@@ -17,7 +17,7 @@ int main(void)
 	{
 		if (a3 > 0)
 			printf("%lu", a3);
-		initialis = numlength(max) - 1 - numlength(a1);
+		initialis = numLength(max) - 1 - numLength(a1);
 
 		while (a3 > 0 && initialis > 0)
 		{

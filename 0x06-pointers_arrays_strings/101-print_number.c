@@ -1,16 +1,15 @@
-#include"main.h"
+#include "main.h"
 
 /**
  * print_number - A function that prints an integer
- * @n: integar
- * Return: 0
-*/
-
+ * @n: integer
+ * Return: void
+ */
 void print_number(int n)
 {
 	unsigned int n1;
 
-	n1 - n;
+	n1 = n;
 	if (n < 0)
 	{
 		_putchar('-');
@@ -21,5 +20,6 @@ void print_number(int n)
 	{
 		print_number(n1 / 10);
 	}
-	_putchar ((n1 % 10) + '0');
+	_putchar((n1 % 10) + '0');
 }
+

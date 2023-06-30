@@ -7,7 +7,7 @@
  * Return:1 if true, 0 if false
 */
 
-int isLower(char c)
+int islower(char c)
 {
 	return (c >= 97 && c <= 122);
 }

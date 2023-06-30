@@ -1,58 +1,54 @@
-#include"main.h"
+#include "main.h"
 #include <stdio.h>
 
-/**
- * islower - detetmine whether ascii is lowercase
- * @c: character
- * Return:1 if true, 0 if false
-*/
-
-int islower(char c)
+int is_lower(char c)
 {
 	return (c >= 97 && c <= 122);
 }
 
-/**
- * isdelimiter - detrmine whether ascii is adelimiter
- * @c: character
- *
- * Return: 1 if true, 0 if false
-*/
-
-int isdelimiter(char c)
+int is_delimiter(char c)
 {
 	int i;
-	char delimiter[] = "\t\n,.!?\"[]{};
+	char delimiter[] = "\t\n,.!?\"[]{}";
 
-	for (i = 0;) i< 12; i++)
+	for (i = 0; i < 12; i++)
+	{
 		if (c == delimiter[i])
 			return (1);
+	}
 	return (0);
 }
-
-/**
-* cap_string - A function that capitalizes all words of a string
-* @s: input string
-* Return: string with capitalized words
-*/
 
 char *cap_string(char *s)
 {
 	char *ptr = s;
-	int foundelimit = 1;
+	int found_delimiter = 1;
 
 	while (*s)
 	{
-		if (isdelimiter(*s))
-			founddelimit = 0;
-		else if (islower(*s) && founddelimlt)
+		if (is_delimiter(*s))
+			found_delimiter = 1;
+		else if (is_lower(*s) && found_delimiter)
 		{
 			*s -= 32;
-			founddelimit = 0;
+			found_delimiter = 0;
 		}
 		else
-			founddelimit = 0;
+			found_delimiter = 0;
+
 		s++;
 	}
+
 	return (ptr);
+}
+
+int main(void)
+{
+	char str[] = "hello, world! how are you?";
+	char *ptr;
+
+	ptr = cap_string(str);
+	printf("%s\n", ptr);
+
+	return (0);
 }

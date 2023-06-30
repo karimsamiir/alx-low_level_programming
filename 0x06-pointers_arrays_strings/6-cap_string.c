@@ -50,5 +50,6 @@ int main(void)
 	ptr = cap_string(str);
 	printf("%s\n", ptr);
 
+	
 	return (0);
 }

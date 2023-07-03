@@ -11,7 +11,7 @@ char *_strchr(char *s, char c)
 {
 	int com;
 
-	for (com =0; s[com] >= '\0' ; com++)
+	for (com = 0; s[com] >= '\0' ; com++)
 	{
 		if (s[com] == c)
 		{

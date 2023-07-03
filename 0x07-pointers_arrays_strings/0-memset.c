@@ -1,9 +1,9 @@
-#include"main.h"
+#include "main.h"
 
 /**
  * _memset - A function that fills memory with a constant byte
  * @s: pointer
- * @b: constsnt
+ * @b: constant
  * @n: max bytes for using
  * Return: pointer
 */
@@ -19,3 +19,4 @@ char *_memset(char *s, char b, unsigned int n)
 
 	return (s);
 }
+

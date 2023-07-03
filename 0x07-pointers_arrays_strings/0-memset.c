@@ -12,7 +12,7 @@ char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int com;
 
-	for (com = 0; n > 0; com++; n--)
+	for (com = 0; n > 0; com++, n--)
 	{
 		s[com] = b;
 	}

@@ -22,7 +22,7 @@ char *_strpbrk(char *s, char *accept)
 		{
 			if (accept[tom] == s[com])
 			{
-				p = $s[com];
+				p = &s[com];
 				return (p);
 			}
 			tom++;

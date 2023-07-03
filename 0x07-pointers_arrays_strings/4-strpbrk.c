@@ -1,13 +1,13 @@
-#include"main.h"
+#include "main.h"
 
 /**
  * _strpbrk - A function that searches a string for any of a set of bytes
  * @s: string
- * @accept: mathing string
+ * @accept: matching string
  *
  * Return: pointer to the byte in string that is matching one of the bytes
- * in accept or NULL no such bytes is found
-*/
+ * in accept or NULL if no such byte is found
+ */
 
 char *_strpbrk(char *s, char *accept)
 {
@@ -27,7 +27,8 @@ char *_strpbrk(char *s, char *accept)
 			}
 			tom++;
 		}
-		com++
+		com++;
 	}
 	return (0);
 }
+

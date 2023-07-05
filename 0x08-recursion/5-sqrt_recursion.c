@@ -28,7 +28,7 @@ int _sqrt_recursion(int n)
  * Return: int
 */
 
-int _sqrt_recursion(int n)
+int square(int n, int com)
 {
 	if (com * com == n)
 		return (com);

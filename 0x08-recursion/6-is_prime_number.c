@@ -33,5 +33,5 @@ int chek_prime(int n, int com)
 	else if (n % com == 0 || n <= 1)
 		return (0);
 	else
-		return (check_prime(n, com + 1));
+		return (chek_prime(n, com + 1));
 }

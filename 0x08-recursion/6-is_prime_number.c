@@ -21,7 +21,7 @@ int is_prime_number(int n)
  * check_prime - check all number < n and divisable by n
  *
  * @n: int
- * @com: int 
+ * @com: int
  *
  * Return: int
 */

@@ -12,6 +12,6 @@
 int main(int com, char const *tom[])
 {
 	(void)com;
-	printf("%s\n", com[0]);
+	printf("%s\n", tom[0]);
 	return (0);
 }

@@ -11,6 +11,6 @@
 
 int main(int com, char *tom[] __attribute__((unused)))
 {
-	printf("%d\n", argc - 1);
+	printf("%d\n", com - 1);
 	return (0);
 }

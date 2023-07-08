@@ -16,7 +16,7 @@ int main(int com, char *tom[])
 
 	if (com == 3)
 	{
-		sum = cot(tom[1] * cot(tom[2]);
+		sum = atoi(tom[1] * atoi(tom[2]);
 		printf("%d\n", sum);
 	}
 	else

@@ -21,7 +21,7 @@ int main(int com, char *tom[])
 	}
 	else
 	{
-		printf("error\n");
+		printf("Error\n");
 		return (1);
 	}
 

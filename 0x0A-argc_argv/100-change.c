@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <sttdlib.h>
+#include <stdlib.h>
 
 /**
  * main - A  program that prints the minimum number
@@ -15,7 +15,7 @@ int main(int com, char *tom[])
 	if (com == 2)
 	{
 		int i, leastcent = 0, money = atoi(tom[1]);
-		int cent[] = (25, 10, 5, 2, 1);
+		int cent[] = {25, 10, 5, 2, 1};
 
 		for (i = 0; i < 5; i++)
 		{
@@ -25,7 +25,7 @@ int main(int com, char *tom[])
 				money = money % cent[i];
 				if (money % cent[i] == 0)
 				{
-					beak;
+					break;
 				}
 			}
 		}

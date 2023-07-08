@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdib.h>
+#include <stdlib.h>
 
 /**
  * main - A program that multiplies two numbers
@@ -16,7 +16,7 @@ int main(int com, char *tom[])
 
 	if (com == 3)
 	{
-		sum = atoi(tom[1] * atoi(tom[2]);
+		sum = atoi(tom[1]) * atoi(tom[2]);
 		printf("%d\n", sum);
 	}
 	else

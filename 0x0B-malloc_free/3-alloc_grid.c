@@ -16,7 +16,7 @@ int **alloc_grid(int width, int height)
 
 	cap = malloc(sizeof(*cap) * height);
 
-	if (width <= 0 || height <= || cap == 0)
+	if (width <= 0 || height <= 0 || cap == 0)
 	{
 		return (NULL);
 	}

@@ -43,7 +43,7 @@ char *_strcopy(char *dest, char *src)
  *
  * @name: name of dog
  * @age: age of dog
- * owner: the dog owner
+ * @owner: the dog owner
  *
  * Return: struct pointer dog NULL if function fails
 */

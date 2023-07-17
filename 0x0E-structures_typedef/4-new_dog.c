@@ -27,7 +27,7 @@ int _strlen(const char *str)
  * Return: @dest
 */
 
-char *_strcopy(char * dest, char *src)
+char *_strcopy(char *dest, char *src)
 {
 	int i;
 
@@ -39,7 +39,7 @@ char *_strcopy(char * dest, char *src)
 }
 
 /**
- * new_dog - A function that crestes a new dog
+ * *new_dog - A function that crestes a new dog
  *
  * @name: name of dog
  * @age: age of dog

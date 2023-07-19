@@ -1,7 +1,7 @@
 #ifndef CALC_H
 #define CALC_H
 
-#include<dtdlib.h>
+#include<stdlib.h>
 #include<stdio.h>
 
 /**

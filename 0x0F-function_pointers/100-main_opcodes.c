@@ -13,21 +13,16 @@
 
 int main(int argc, char **argv)
 {
-	int (*op_func)(int, int), a, b;
+	char *p = (char *)main;
+	int b;
 
-	if (argc != 4)
-		printf("Error\n"), exit(98);
+	if (argc != 2)
+		printf("Error\n"), exit(1);
+	b = atoi(argv[1]);
+	if (b < 0)
+		printf("Error\n"), exit(2);
 
-		a = atoi(argv[1]);
-		b = atoi(argv[3]);
-
-	op_func = get_op_func(argv[2]);
-	if (!op_func)
-		printf("Error\n"), exit(99);
-
-	if (!b && (argv[2][0] == '/' || argv[2][0] == '%'))
-		printf("Error\n"), exit(100);
-
-	printf("%d\n", op_func(a, b));
+	while (b--)
+		printf("%02hhx%s", p++, b ? " " : "\n");
 	return (0);
 }

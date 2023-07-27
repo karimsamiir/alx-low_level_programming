@@ -38,5 +38,5 @@ size_t print_list(const list_t *h)
 		h = h->next;
 		k++;
 	}
-	return (k)
+	return (k);
 }

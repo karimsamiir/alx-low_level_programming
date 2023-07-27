@@ -3,10 +3,10 @@ section		.text
 	glopal	main
 
 main:
-	mov		edi,	msg
-	mov		eax,	0
-	call		printf
+	mov		edi, msg
+	mov		eax, 0
+	call	printf
 
 section		.data
 
-	msg	db	'Hello,Helberton',	0xa,	0
+	msg db 'Hello,Helberton', 0xa, 0

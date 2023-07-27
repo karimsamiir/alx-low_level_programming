@@ -15,7 +15,6 @@ int _strlen(char *k)
 
 	if (!k)
 		return (0);
-	
 	while (*k++)
 		a++;
 	return (a);
@@ -24,14 +23,14 @@ int _strlen(char *k)
 /**
  * print_list - prints a linked lists
  *
- * h: pointer to first node
+ * @h: pointer to first node
  *
  * Return: size of list
 */
 
 size_t print_list(const list_t *h)
 {
-	size_t k =0;
+	size_t k = 0;
 
 	while (h)
 	{

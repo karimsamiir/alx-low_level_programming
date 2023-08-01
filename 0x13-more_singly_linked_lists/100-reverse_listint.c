@@ -17,7 +17,7 @@ listint_t *reverse_listint(listint_t **head)
 
 	znode = *head;
 	*head = NULL;
-	while (node)
+	while (znode)
 	{
 		znext = znode->next;
 		znode->next = *head;

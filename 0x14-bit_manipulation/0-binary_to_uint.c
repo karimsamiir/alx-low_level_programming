@@ -5,7 +5,7 @@
  *
  * @b: the string as a binary
  *
- * Return: unsigned int
+ * Return: unsigned int from b
 */
 
 unsigned int binary_to_uint(const char *b)

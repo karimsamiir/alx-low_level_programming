@@ -5,8 +5,7 @@
  *
  * @n: number to the index
  *
- * Return: the bit statue or
- * 	-1 if false
+ * Return: the bit state or -1 on false
 */
 
 int get_bit(unsigned long int n, unsigned int index)

@@ -5,7 +5,7 @@
  *
  * @n: number to the index
  *
- * Return: the bit or
+ * Return: the bit statue or
  * 	-1 if false
 */
 

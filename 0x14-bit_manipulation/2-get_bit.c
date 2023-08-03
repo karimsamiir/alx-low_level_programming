@@ -5,7 +5,7 @@
  *
  * @n: number to the index
  *
- * Return: the bit,
+ * Return: the bit or
  * 	-1 if false
 */
 

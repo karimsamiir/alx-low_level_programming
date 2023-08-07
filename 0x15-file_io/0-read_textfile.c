@@ -12,18 +12,18 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int kim
+	int kim;
 	ssize_t byte;
 	char rd[READ_BUF_SIZE];
 
 	if (!filename || !letters)
 		return (0);
-	kim = open(filename, o_RDONLY);
+	kim = open(filename, O_RDONLY);
 	if (kim == -1)
 		return (0);
 
 	byte = read(kim, &rd[0], letters);
-	byte = write(STDOUT_FILEND, &rd[0], byte);
+	byte = write(STDOUT_FILENO, &rd[0], byte);
 	close(kim);
 
 	return (byte);

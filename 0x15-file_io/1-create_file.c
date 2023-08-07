@@ -15,7 +15,7 @@ int _strlen(char *k)
 	if (!k)
 		return (0);
 
-	while (*s++)
+	while (*k++)
 		l++;
 	return (l);
 }

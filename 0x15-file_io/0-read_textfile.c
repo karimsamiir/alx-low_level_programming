@@ -14,7 +14,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int kim;
 	ssize_t byte;
-	char rd[READ_BUF_SIZE];
+	char rd[READ_BUF_SIZE * 8];
 
 	if (!filename || !letters)
 		return (0);

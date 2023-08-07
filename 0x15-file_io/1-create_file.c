@@ -10,14 +10,14 @@
 
 int _strlen(char *k)
 {
-	int l = 0;
+	int lenght = 0;
 
 	if (!k)
 		return (0);
 
 	while (*k++)
-		l++;
-	return (l);
+		lenght++;
+	return (lenght);
 }
 
 /**

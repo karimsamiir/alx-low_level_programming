@@ -42,5 +42,5 @@ int append_text_to_file(const char *filename, char *text_content)
 	if (lenght)
 		byte = write(kim, text_content, lenght);
 	close(kim);
-	return (bytes == len ? 1 : -1);
+	return (byte == lenght ? 1 : -1);
 }
